@@ -1,0 +1,15 @@
+uniform layout:
+EEG/
+    |-- dataset/            前端ADS1299硬件采集到的原始数据
+        |-- zyt_eeg/
+            |-- angry/
+            ...
+    |-- Dataset.py          自定义一个EEG的数据集类
+    |-- PC_collect.py       与硬件结合，同步预测，有20ms左右延迟
+    |-- model/              保存训练过程中较为优秀的模型,.pth格式
+    |-- NET.py              所有的网络结构类的合集
+    |-- preprocessing.py    预处理过程,包含mne.filter, mne.ica, STFT
+    |-- train.py            windows训练代码,
+                            包含visdom:       http://localhost:8097/
+                            需终端提前打开:     python -m visdom.server
+    |-- train_linux.py      linux训练代码
