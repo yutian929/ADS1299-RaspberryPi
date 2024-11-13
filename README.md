@@ -2,6 +2,7 @@
 ## brief introduction
 This is a simple project of ADS1299-RaspberryPi migrated from [EEG-ADS1299-EmotionClassifier](https://github.com/ZakiZhang168/EEG-ADS1299-EmotionClassifier) (abandoned).
 
+An Unscrupulous Arxiv Paper: https://arxiv.org/abs/2405.16121
 
 ## Catalog Introduction
 ### raspi
@@ -21,3 +22,5 @@ raspi上的UDP传输和基本寄存器设置。
 EEG项目，一个简单的基于EEG的情绪分类器。
 ### 备注
 这个项目是本科大一的时候做的，本人现在不再从事EEG相关方向研究，所以此repo不再更新，但是欢迎大家fork，我会继续维护的。
+
+一个拿出来丢人现眼的arxiv论文: https://arxiv.org/abs/2405.16121
